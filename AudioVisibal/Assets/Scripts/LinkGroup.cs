@@ -14,6 +14,7 @@ public class LinkGroup : MonoBehaviour
         lineRenderer = GetComponent<LineRenderer>();
     }
 
+    //设置转向，可视化指向圆心
     private void Start()
     {
         if (transform.position.x > 0)

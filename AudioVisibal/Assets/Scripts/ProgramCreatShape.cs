@@ -11,14 +11,16 @@ using UnityEngine;
 public class ProgramCreatShape : MonoBehaviour
 {
     public GameObject pointPrefab;
-
+    //生成的点的数量
     [Range(10, 100)]
     public int groupNum = 30;
+    //外圈的特效linerender
     public LineRenderer line2;
     private LineRenderer line;
 
     Transform[] points;
 
+    //生成新的group
     private void Awake()
     {
         line = GetComponent<LineRenderer>();
@@ -38,6 +40,8 @@ public class ProgramCreatShape : MonoBehaviour
         }
     }
 
+
+//设置每个group的位置
     private void Start()
     {
         int group = 1;

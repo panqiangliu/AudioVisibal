@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//添加音频组件
 [RequireComponent(typeof(AudioSource))]
 public class AuidioVisable : MonoBehaviour
 {
