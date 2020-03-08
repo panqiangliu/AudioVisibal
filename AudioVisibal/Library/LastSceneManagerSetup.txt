@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/AuidoVisibal.unity
+  isLoaded: 1
+  isActive: 1
